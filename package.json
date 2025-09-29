@@ -1,0 +1,23 @@
+{
+    "name": "heic-to-jpg-api",
+    "version": "1.0.0",
+    "description": "Simple Node.js API to convert HEIC to JPG using Sharp",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "helmet": "^7.0.0",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "node-fetch": "^3.3.2",
+        "sharp": "^0.32.4"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
